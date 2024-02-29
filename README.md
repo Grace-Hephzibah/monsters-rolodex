@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Monster Rolodex
+## Project Overview
+Monster Rolodex is a React.js web application that provides a fun and interactive way to view a list of fictional monster characters. It utilizes an internal API to fetch and display monster details such as images, names, and email addresses. Users can search for monsters using the search box, which dynamically filters the list of monsters to match the search input.
+## Features
+- Display monster cards with images, names, and emails.
+- Filter monsters by name using the search box.
+- Responsive and user-friendly interface.
+## Technologies
+- React.js
+- CSS
+- Asynchronous JavaScript for fetching data from an internal API.
+## File Structure
+- `public` - Contains the static files like the favicon, index.html, and manifest.
+- `src` - Contains the source code for the application.
+  - `components` - Includes React components like `card-container`, `card-list`, and `search-box`.
+  - `App.js` - The main React component renders the entire application.
+  - `index.js` - The entry point for the React application.
+## Setup
+To get started with Monster Rolodex:
+1. Clone this repository.
+2. Navigate to the project directory.
+3. Run `npm install` to install dependencies.
+4. Run `npm start` to run the app in development mode.
+5. Visit `http://localhost:3000` to view the app in the browser.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Snapshots 
+### 1. Home Page
+<img src = "https://github.com/Grace-Hephzibah/monsters-rolodex/blob/main/screenshots/homepage.png" width = "800"/>
 
-## Available Scripts
+### 2. Card Hover Effect 
+<img src = "https://github.com/Grace-Hephzibah/monsters-rolodex/blob/main/screenshots/card-hover-effect.png" width = "800"/>
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 3. Search Box
+<img src = "https://github.com/Grace-Hephzibah/monsters-rolodex/blob/main/screenshots/search-box.png" width = "800"/>
